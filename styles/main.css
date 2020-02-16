@@ -5,7 +5,7 @@
 
 body, html {
   margin: 0px;
-font-family: Quicksand;
+  font-family: Quicksand;
   font-size: 20px;
 }
 
@@ -180,4 +180,49 @@ font-family: Quicksand;
   display: flex;
   padding: 0px 5px;
   justify-content: space-between;
+}
+
+.mainspecialinfo{
+  max-width: 960px;
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 5px;
+  font-size: 30px;
+  font-family: Luminari;
+  margin-top: 20px;
+}
+
+.mainspecialinfo__data{
+  margin: 0px auto;
+  display: flex;
+  display: block;
+}
+
+.mainspecialinfopolaroid{
+  max-width: 960px;
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 5px;
+  background-color: aqua;
+  flex-wrap: wrap;
+  display: block;
+  justify-content: space-evenly;
+}
+div.polaroid1{
+  width: 50%;
+  background-color: #c634b8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pola{
+  width: 100%;
+}
+
+.polacontainer{
+  text-align: center;
+  padding: 10px 20px;
 }
