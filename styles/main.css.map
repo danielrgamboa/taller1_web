@@ -5,7 +5,9 @@
         "main.scss",
         "_mainnav.scss",
         "_mainheader.scss",
-        "_search.scss"
+        "_search.scss",
+        "_mainbanner.scss",
+        "_maingallery.scss"
     ],
     "names": [],
     "file": "main.css"
