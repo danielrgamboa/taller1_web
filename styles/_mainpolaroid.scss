@@ -5,15 +5,17 @@
     display: -ms-flexbox;
     display: flex;
     padding: 0px 5px;
-    justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+
   }
-  div.polaroid1{
+  .polaroid{
     width: 50%;
     background-color: #c634b8;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 5px;
   }
-  
+
   .pola{
     width: 100%;
   }
