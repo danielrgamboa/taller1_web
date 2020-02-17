@@ -5,7 +5,7 @@
 
 body, html {
   margin: 0px;
-  font-family: Quicksand;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 20px;
 }
 
@@ -47,7 +47,7 @@ body, html {
 
 .mainheader {
   background-color: #34495E;
-  padding: 40px 0px;
+  padding: 10px 0px;
 }
 
 .mainheader__container {
@@ -66,7 +66,7 @@ body, html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 540px;
+  margin-left: 525px;
 }
 
 .search__input {
@@ -112,7 +112,73 @@ body, html {
   outline: none;
 }
 
-.search__logo{
+.search__button:hover {
+  background-color: #d459c8;
+  cursor: pointer;
+}
+
+@media (max-width: 730px) {
+  .search {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.search {
+  height: 35px;
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 540px;
+}
+
+.search__input {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  height: 100%;
+  border: 1px solid transparent;
+  width: 80%;
+  padding: 6px 8px;
+}
+
+.search__input:focus {
+  outline: none;
+  -webkit-box-shadow: 0px 0px 6px rgba(238, 218, 228, 0.5);
+  box-shadow: 0px 0px 6px rgba(238, 218, 228, 0.5);
+}
+
+.search__input::-webkit-input-placeholder {
+  color: lightgray;
+}
+
+.search__input:-ms-input-placeholder {
+  color: lightgray;
+}
+
+.search__input::-ms-input-placeholder {
+  color: lightgray;
+}
+
+.search__input::placeholder {
+  color: lightgray;
+}
+
+.search__button {
+  height: 100%;
+  width: 20%;
+  background-color: #c634b8;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border: none;
+  -webkit-transition: background-color .3s ease;
+  transition: background-color .3s ease;
+  outline: none;
+}
+
+.search__logo {
   height: 50%;
   width: 35%;
 }
@@ -126,9 +192,118 @@ body, html {
   .search {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
 
+.mainbanner__1 {
+  max-width: 960px;
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 5px;
+}
 
+.maingallery {
+  max-width: 960px;
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 5px;
+  font-size: 30px;
+  font-family: Luminari;
+  margin-top: 20px;
+}
+
+.maingallery__photos1 {
+  max-width: 960px;
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 5px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.maingallery__photos2 {
+  max-width: 960px;
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 5px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.maingallery__photos3 {
+  max-width: 960px;
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 5px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mainspecialinfo {
+  max-width: 960px;
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 5px;
+  font-size: 30px;
+  font-family: Luminari;
+  margin-top: 20px;
+}
+
+.mainspecialinfo__data {
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: block;
+}
+
+.mainspecialinfopolaroid {
+  max-width: 960px;
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+div.polaroid1 {
+  width: 50%;
+  background-color: #c634b8;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pola {
+  width: 100%;
+}
+
+.polacontainer {
+  text-align: center;
+  padding: 10px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=main.css.map */
