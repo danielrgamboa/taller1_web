@@ -35,9 +35,11 @@
     }
 
     @media(max-width: $breakpoint-sm){
-        &{
-            flex-direction: column;
-        }
+      &{
+          flex-direction: row;
+          max-width: 100%;
+          height: auto;
+      }
     }
 }
 
@@ -103,10 +105,10 @@
     cursor: pointer;
   }
   
-  @media (max-width: 730px) {
-    .search {
-      -webkit-box-orient: horizontal;
-          -ms-flex-direction: column;
-              flex-direction: column;
+  @media(max-width: $breakpoint-sm){
+    &{
+        flex-direction: row;
+        max-width: 100%;
+        height: auto;
     }
   }

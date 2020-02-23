@@ -19,6 +19,18 @@
     display: flex;
     padding: 0px 5px;
     justify-content: space-between;
+    padding: 20px;
+
+    @media(max-width: $breakpoint-sm){
+      &{
+          background-color: chartreuse;
+          flex-wrap: wrap;
+          justify-content: center;
+          flex-direction: row;
+          padding: 50px;
+      }
+    }
+
   }
   
 

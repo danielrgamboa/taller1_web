@@ -5,12 +5,12 @@
     display: -ms-flexbox;
     display: flex;
     padding: 0px 5px;
-    
-
-
+ 
     @media(max-width: $breakpoint-sm){
       &{
-          display: auto;
+          flex-direction: row;
+          max-width: 100%;
+          height: auto;
       }
     }
   }
