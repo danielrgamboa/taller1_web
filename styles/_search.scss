@@ -2,7 +2,7 @@
     height: 35px;
     width: 300px;
     display: flex;
-    margin-left: 525px;
+    margin-left: auto;
 
     &__input{
         border-top-left-radius: 0px;
@@ -105,8 +105,7 @@
   
   @media (max-width: 730px) {
     .search {
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
+      -webkit-box-orient: horizontal;
           -ms-flex-direction: column;
               flex-direction: column;
     }
