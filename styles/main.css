@@ -299,6 +299,10 @@ body, html {
             flex-direction: row;
     padding: 50px;
   }
+  .maingallery__photos img {
+    width: calc(50% - 20px);
+    margin: 10px;
+  }
 }
 
 .mainspecialinfo {
