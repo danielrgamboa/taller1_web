@@ -341,6 +341,21 @@ body, html {
           justify-content: space-between;
 }
 
+@media (max-width: 730px) {
+  .mainspecialinfopolaroid {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 50px;
+  }
+}
+
 .polaroid {
   width: 50%;
   background-color: #c634b8;

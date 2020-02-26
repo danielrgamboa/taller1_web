@@ -8,6 +8,15 @@
     flex-direction: row;
     justify-content: space-between;
 
+    @media(max-width: $breakpoint-sm){
+      &{
+          flex-wrap: wrap;
+          justify-content: center;
+          flex-direction: row;
+          padding: 50px;
+      }
+    }
+
   }
   .polaroid{
     width: 50%;
