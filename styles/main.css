@@ -376,4 +376,22 @@ body, html {
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+.mainfooter__container {
+  background-color: #c634b8;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+  font-family: Luminari;
+}
+
+.mainfooter__image {
+  height: 50px;
+  width: auto;
+  margin: 20px;
+}
 /*# sourceMappingURL=main.css.map */
