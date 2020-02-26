@@ -1,0 +1,65 @@
+.mainnewsletter{
+   padding: 0;
+   margin: 0;
+   font-family: Geneva;
+}
+
+.mainnewsletter__container{
+    background-color: $secondary-color;
+    max-width: 960px;
+    margin: 0px auto;
+    display: flex;
+    padding: 0px 5px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.box{
+    float: left;
+    margin: 20px 10px 20px 20px;
+    width: 80%;
+}
+
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 23px;
+    font-family: Luminari;
+    text-align: left;
+    padding: 20px 0;
+}
+
+.box p{
+    text-align: left;
+    color: white;
+    font-size: 11px;
+    margin-bottom: 20px;
+}
+
+.tbox input{
+    border: none;
+    width: 85%;
+    font-size: 11px;
+    padding: 5px 10px;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.tbox a.btn{
+    background-color: $primary-color;
+    padding: 7px 15px;
+    color: white;  
+}
+
+.box span{
+  color: white;
+  font-size: 15px;  
+}
+
+.news-image{
+   position: absolute;
+   top: 50%;
+   right: 20px;
+   transform: translateY(-50%);
+   border-radius: 50%; 
+}
