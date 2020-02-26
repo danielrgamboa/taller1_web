@@ -413,23 +413,24 @@ body, html {
 .box p {
   text-align: left;
   color: white;
-  font-size: 11px;
+  font-size: 13px;
   margin-bottom: 20px;
 }
 
 .tbox input {
   border: none;
-  width: 85%;
-  font-size: 11px;
-  padding: 5px 10px;
+  width: 45%;
+  font-size: 12px;
+  padding: 10px 20px;
   outline: none;
   margin-bottom: 20px;
 }
 
 .tbox a.btn {
   background-color: #c634b8;
-  padding: 7px 15px;
+  padding: 10px 20px;
   color: white;
+  height: 20px;
 }
 
 .box span {
@@ -438,12 +439,13 @@ body, html {
 }
 
 .news-image {
-  position: absolute;
   top: 50%;
   right: 20px;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  border-radius: 50%;
+  border-radius: 80%;
+  height: 200px;
+  width: auto;
+  margin-top: 50px;
+  margin-right: 20px;
 }
 
 .mainfooter__container {
