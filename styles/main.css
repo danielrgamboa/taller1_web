@@ -443,14 +443,14 @@ body, html {
 
 .tbox a.btn {
   background-color: #c634b8;
-  padding: 10px 20px;
+  padding: 5px 10px;
   color: white;
   height: 20px;
 }
 
 .box span {
   color: white;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .news-image {
@@ -473,6 +473,10 @@ body, html {
   display: flex;
   font-size: 20px;
   font-family: Luminari;
+}
+
+.mainfooter__container h2 {
+  margin-left: 20px;
 }
 
 .mainfooter__image {
