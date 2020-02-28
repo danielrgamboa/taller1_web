@@ -1,10 +1,13 @@
+.mainspecs{
+    position: relative;
+}
+
 .mainspecs__img{
     max-width: 960px;
     margin: 0px auto;
     display: flex;
     padding: 0px 5px;
     margin-bottom: 50px;
-    position: relative;
  
     @media(max-width: 960px){
       &{
@@ -17,13 +20,15 @@
 
   .mainspecs__list{
       position: absolute;
-      color:green;
-      left: 800px;
-      top: 2640px;
+      color: white;
+      left: 50%;
+      top: 50px;
 
       @media(max-width: 960px){
         &{
-            height: auto;
+            font-size: 15px;
+            left: 50%;
+            top: 10%;
         }
       }
   }

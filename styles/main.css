@@ -404,7 +404,7 @@ body, html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 0px 5px;
+  padding: 0px 10px;
   margin-top: 60px;
   margin-bottom: 50px;
 }
@@ -427,14 +427,14 @@ body, html {
 .box p {
   text-align: left;
   color: white;
-  font-size: 13px;
+  font-size: 18px;
   margin-bottom: 20px;
 }
 
 .tbox input {
   border: none;
   width: 45%;
-  font-size: 12px;
+  font-size: 15px;
   padding: 10px 20px;
   outline: none;
   margin-bottom: 20px;
@@ -450,7 +450,7 @@ body, html {
 
 .box span {
   color: white;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .news-image {
@@ -485,6 +485,10 @@ body, html {
   margin: 20px;
 }
 
+.mainspecs {
+  position: relative;
+}
+
 .mainspecs__img {
   max-width: 960px;
   margin: 0px auto;
@@ -493,7 +497,6 @@ body, html {
   display: flex;
   padding: 0px 5px;
   margin-bottom: 50px;
-  position: relative;
 }
 
 @media (max-width: 960px) {
@@ -509,14 +512,16 @@ body, html {
 
 .mainspecs__list {
   position: absolute;
-  color: green;
-  left: 800px;
-  top: 2640px;
+  color: white;
+  left: 50%;
+  top: 50px;
 }
 
 @media (max-width: 960px) {
   .mainspecs__list {
-    height: auto;
+    font-size: 15px;
+    left: 50%;
+    top: 10%;
   }
 }
 /*# sourceMappingURL=main.css.map */
