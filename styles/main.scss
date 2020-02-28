@@ -1,6 +1,6 @@
 $secondary-color: #34495E;
 $primary-color: #c634b8;
-$font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$font-family: Quicksand;
 $font-size: 20px;
 
 $breakpoint-sm: 730px;
@@ -32,3 +32,4 @@ body, html{
 @import 'mainpropaganda';
 @import 'mainnewsletter';
 @import 'mainfooter';
+@import 'mainspecs';

@@ -1,0 +1,29 @@
+.mainspecs__img{
+    max-width: 960px;
+    margin: 0px auto;
+    display: flex;
+    padding: 0px 5px;
+    margin-bottom: 50px;
+    position: relative;
+ 
+    @media(max-width: 960px){
+      &{
+          flex-direction: row;
+          max-width: 100%;
+          height: auto;
+      }
+    }
+  }
+
+  .mainspecs__list{
+      position: absolute;
+      color:green;
+      left: 800px;
+      top: 2640px;
+
+      @media(max-width: 960px){
+        &{
+            height: auto;
+        }
+      }
+  }
