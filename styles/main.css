@@ -28,6 +28,68 @@ body, html {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #c634b8;
+}
+
+.mainnav__container--mobile {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mainnav__container__link {
+  background-color: lightgray;
+  padding: 5px 7px;
+}
+
+.mainnav__container__search {
+  margin-left: auto;
+}
+
+@media (max-width: 730px) {
+  .mainnav__container {
+    display: none;
+  }
+}
+
+.hamburguerbtn {
+  background-color: #ffb031;
+  width: 50px;
+  height: 50px;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 11px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: none;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.hamburguerbtn span {
+  height: 5px;
+  width: 100%;
+  background-color: white;
+}
+
+@media (max-width: 730px) {
+  .hamburguerbtn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .mainnav__link {
@@ -179,66 +241,14 @@ body, html {
   outline: none;
 }
 
-.search__button--mobile {
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.search__button__link {
-  background-color: lightgray;
-  padding: 5px 7px;
-}
-
-.search__button__search {
-  margin-left: auto;
-}
-
 .search__logo {
   height: 50%;
-  width: 35%;
+  width: auto;
 }
 
 .search__button:hover {
   background-color: #ffa239;
   cursor: pointer;
-}
-
-.hamburguerbtn {
-  background-color: grey;
-  width: 40px;
-  height: 40px;
-  display: none;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 10px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  border: none;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-}
-
-.hamburguerbtn span {
-  height: 3px;
-  width: 100%;
-  background-color: white;
-}
-
-@media (max-width: 730px) {
-  .hamburguerbtn {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
 }
 
 .mainbanner__1 {

@@ -1,15 +1,15 @@
-var mainnav = document.querySelector('.container mainnav__container');
-var hambtn = document.querySelector('.search__button');
+var mainnav = document.querySelector('.mainnav__container');
+var hambtn = document.querySelector('.hamburguerbtn');
 
 var handleHamClick = function (event) {
     console.log(event);
-    mainnav.classList.toggle('mainnav--mobile');
+    mainnav.classList.toggle('mainnav__container--mobile');
 }
-search__button.addEventListener('click', search__buttonClick);
+hambtn.addEventListener('click', handleHamClick);
 
 function handleWindowResize (event) {
     if(window.innerWidth > 400){
-        container mainnav__container.classList.remove('container mainnav__container--mobile');
+        mainnav.classList.remove('mainnav__container--mobile');
     }
 }
 window.addEventListener('resize', handleWindowResize);
