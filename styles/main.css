@@ -412,7 +412,7 @@ body, html {
 }
 
 .propa {
-  max-width: 960px;
+  max-width: 750px;
   margin: 0px auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -425,6 +425,17 @@ body, html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+@media (max-width: 750px) {
+  .propa {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 .mainnewsletter {
