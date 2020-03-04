@@ -326,18 +326,23 @@ body, html {
   margin-top: 50px;
 }
 
+@media (max-width: 960px) {
+  .maingallery__video {
+    max-width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 30px;
+    margin-left: 0px;
+  }
+}
+
 .maingallery__video iframe {
   width: 100%;
   height: 100%;
-}
-
-@media (max-width: 960px) {
-  .maingallery__video iframe {
-    max-width: 100%;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
 }
 
 .mainspecialinfo {
@@ -477,6 +482,16 @@ body, html {
   margin-bottom: 20px;
 }
 
+.tbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
 .tbox input {
   border: none;
   width: 45%;
@@ -488,10 +503,12 @@ body, html {
 
 .tbox a.btn {
   border: none;
-  width: 45%;
+  width: 13%;
   background-color: #c634b8;
   padding: 7px 20px;
   color: white;
+  height: 100%;
+  margin-left: 15px;
 }
 
 .box span {

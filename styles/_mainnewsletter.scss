@@ -35,6 +35,12 @@
     margin-bottom: 20px;
 }
 
+.tbox{
+    display: flex;
+    flex-direction: row;
+    
+}
+
 .tbox input{
     border: none;
     width: 45%;
@@ -46,10 +52,12 @@
 
 .tbox a.btn{
     border: none;
-    width: 45%;
+    width: 13%;
     background-color: $primary-color;
     padding: 7px 20px;
     color: white; 
+    height: 100%;
+    margin-left: 15px;
 }
 
 .box span{
