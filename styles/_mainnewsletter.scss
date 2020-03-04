@@ -58,19 +58,16 @@
     padding: 7px 20px;
     color: white; 
     margin-left: 15px;
+    text-decoration: none;
 
     &:hover{
-        background-color: yellow;
+        background-color:#ffb031;
     }
 
     @media (max-width: 960px){
         display: flex;
         width: auto;
         text-decoration: none;
-
-        &:hover{
-            
-        }
 
     }
 }
