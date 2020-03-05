@@ -1,5 +1,4 @@
 .mainshop{
-    background-color: yellowgreen;
     max-width: 960px;
     margin: 0px auto;
     display: flex;
@@ -7,9 +6,10 @@
     margin-top: 70px;
     justify-content: space-between;
 
-    @media (max-width: 960px) {
+    @media (max-width: $breakpoint-sm) {
         flex-direction: column;
         justify-content: center;
+        align-items: center;
 
 
 }
@@ -18,9 +18,10 @@
 .galery{
     width: 50%;
 
-    @media (max-width: 960px) {
+    @media (max-width: $breakpoint-sm) {
         flex-direction: column;
         width: 100%;
+        align-items: center;
 
 
 }
@@ -75,6 +76,8 @@
     letter-spacing: 1px;
     text-transform: uppercase;
     text-decoration: none;
+
+
   }
   .product-description h1 {
     font-weight: 300;
@@ -87,11 +90,14 @@
     font-weight: 300;
     color: #86939E;
     line-height: 24px;
+
+    @media (max-width: $breakpoint-sm) {
+        text-align: justify;  
+    }
   }
    
   /* Product Configuration */
-  .product-color span,
-  .cable-config span {
+  .product-color span{
     font-size: 14px;
     font-weight: 400;
     color: #86939E;
@@ -127,70 +133,25 @@
     box-shadow: 0 1px 3px 0 rgba(0,0,0,0.33);
   }
    
-  .color-choose input[type="radio"]#red + label span {
-    background-color: #C91524;
+  .color-choose input[type="radio"]#rainbow + label span {
+    background-color: rgb(165, 21, 201);
   }
-  .color-choose input[type="radio"]#blue + label span {
-    background-color: #314780;
+  .color-choose input[type="radio"]#lime + label span {
+    background-color: #a1ee8e;
   }
-  .color-choose input[type="radio"]#black + label span {
-    background-color: #323232;
+  .color-choose input[type="radio"]#pink + label span {
+    background-color: #f398d5;
+  }
+  .color-choose input[type="radio"]#platinum + label span {
+    background-color: #5f5d5d;
   }
    
   .color-choose input[type="radio"]:checked + label span {
-    background-image: url(images/check-icn.svg);
     background-repeat: no-repeat;
     background-position: center;
   }
    
-  /* Cable Configuration */
-  .cable-choose {
-    margin-bottom: 20px;
-  }
-   
-  .cable-choose button {
-    border: 2px solid #E1E8EE;
-    border-radius: 6px;
-    padding: 13px 20px;
-    font-size: 14px;
-    color: #5E6977;
-    background-color: #fff;
-    cursor: pointer;
-    transition: all .5s;
-  }
-   
-  .cable-choose button:hover,
-  .cable-choose button:active,
-  .cable-choose button:focus {
-    border: 2px solid #86939E;
-    outline: none;
-  }
-   
-  .cable-config {
-    border-bottom: 1px solid #E1E8EE;
-    margin-bottom: 20px;
-  }
-   
-  .cable-config a {
-    color: #358ED7;
-    text-decoration: none;
-    font-size: 12px;
-    position: relative;
-    margin: 10px 0;
-    display: inline-block;
-  }
-  .cable-config a:before {
-    content: "?";
-    height: 15px;
-    width: 15px;
-    border-radius: 50%;
-    border: 2px solid rgba(53, 142, 215, 0.5);
-    display: inline-block;
-    text-align: center;
-    line-height: 16px;
-    opacity: 0.5;
-    margin-right: 5px;
-  }
+  
    
   /* Product Price */
   .product-price {
@@ -221,10 +182,11 @@
   }
    
   /* Responsive */
-  @media (max-width: 960px) {
+  @media (max-width: $breakpoint-sm) {
     .container {
       flex-direction: column;
       margin-top: 60px;
+      align-items: center;
     }
    
     .left-column,
@@ -240,7 +202,7 @@
     }
   }
    
-  @media (max-width: 535px) {
+  @media (max-width: $breakpoint-sm) {
     .left-column img {
       width: 220px;
       top: -85px;

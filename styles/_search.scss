@@ -40,6 +40,7 @@
           flex-direction: row;
           max-width: 100%;
           height: auto;
+          justify-content: center;
       }
     }
 }
@@ -50,6 +51,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+
   }
   
   .search__input {
@@ -110,5 +112,6 @@
         flex-direction: row;
         max-width: 100%;
         height: auto;
+        
     }
   }

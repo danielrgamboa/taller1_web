@@ -5,6 +5,14 @@
 }
 .mainheader__container{
     align-items: center;
+
+    @media (max-width: $breakpoint-sm) {
+        display: flex;
+        flex-direction: column;
+           justify-content: center;
+           align-items: center;
+        }
+
 }
 .mainheader__logo{
     width: 100px;
