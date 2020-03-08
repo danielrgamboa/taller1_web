@@ -11,16 +11,22 @@
           flex-wrap: wrap;
           justify-content: center;
           flex-direction: row;
-          padding: 50px;
+          padding: 30px 10px;
+
       }
     }
 
   }
   .polaroid{
     width: 50%;
-    background-color: #c634b8;
+    background-color: $primary-color;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 5px;
+
+    @media (max-width: $breakpoint-sm){
+      margin-top: 20px;
+    }
+    
   }
 
   .pola{

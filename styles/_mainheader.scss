@@ -16,4 +16,8 @@
 }
 .mainheader__logo{
     width: 100px;
+
+    @media (max-width: $breakpoint-sm){
+        margin-bottom: 20px;
+    }
 }

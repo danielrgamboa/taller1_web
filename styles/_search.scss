@@ -52,6 +52,11 @@
     display: -ms-flexbox;
     display: flex;
 
+    @media (max-width: $breakpoint-sm){
+      margin-right: 50px;
+      margin-bottom: 10px;
+    }
+
   }
   
   .search__input {

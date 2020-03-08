@@ -140,6 +140,12 @@ body, html {
   width: 100px;
 }
 
+@media (max-width: 414px) {
+  .mainheader__logo {
+    margin-bottom: 20px;
+  }
+}
+
 .search {
   height: 35px;
   width: 300px;
@@ -217,6 +223,13 @@ body, html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media (max-width: 414px) {
+  .search {
+    margin-right: 50px;
+    margin-bottom: 10px;
+  }
 }
 
 .search__input {
@@ -341,13 +354,16 @@ body, html {
 }
 
 .maingallery__video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px auto;
   max-width: 960px;
   height: 500px;
-  margin-left: 275px;
-  margin-top: 50px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 50px;
 }
 
 @media (max-width: 960px) {
@@ -416,7 +432,7 @@ body, html {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    padding: 50px;
+    padding: 30px 10px;
   }
 }
 
@@ -426,6 +442,12 @@ body, html {
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 5px;
+}
+
+@media (max-width: 414px) {
+  .polaroid {
+    margin-top: 20px;
+  }
 }
 
 .pola {
@@ -714,7 +736,7 @@ body, html {
 
 .galery__main {
   height: 400px;
-  width: 95%;
+  width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
   -o-object-position: center;
@@ -806,7 +828,9 @@ body, html {
 
 @media (max-width: 414px) {
   .galery__thumb--active {
-    border: 3px solid #ffb031;
+    -webkit-box-shadow: 0px 0px 18px #c634b8;
+            box-shadow: 0px 0px 18px #c634b8;
+    border: 0.5px solid wheat;
   }
 }
 
@@ -820,7 +844,6 @@ body, html {
   border-bottom: 1px solid #E1E8EE;
   margin-bottom: 20px;
   margin-left: 20px;
-  background-color: greenyellow;
 }
 
 .product-description span {
@@ -863,7 +886,6 @@ body, html {
 
 @media (max-width: 414px) {
   .product-description p {
-    text-align: justify;
     font-size: 18px;
   }
 }

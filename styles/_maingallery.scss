@@ -37,11 +37,12 @@
   }
 
   .maingallery__video{
+    display: flex;
+    margin: 0px auto;
     max-width: 960px;
     height: 500px;
-    margin-left: 275px;
-    margin-top: 50px;
     justify-content: center;
+    margin-top: 50px;
 
     @media(max-width: 960px){
       max-width: 100%;
